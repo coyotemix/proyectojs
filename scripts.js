@@ -1,19 +1,20 @@
-function numeroAlAzarEntreLimites(lim1,lim2)
+function numeroAlAzar()
 {
-var num=Math.floor(Math.random()*(lim1-lim2))+lim2;
+var num=Math.floor(Math.random()*100)+1;
 return num;
 }
-var limiteSuperior=prompt("ingrese limite superiror: ");
-var limiteInferior=prompt("ingrese limite inferior: ");
+var numero = numeroAlAzar();
+var contador =0;
 
-if (isNaN(limiteInferior) || isNaN (limiteSuperior))
+while (true)
 {
-	throw error("numero no valido");
+	contador = contador+1;
+	num2=numeroAlAzar();
+	if (numero ===num2)
+	{
+		alert("el numero inicial era:" +numero);
+		alert("el numero adivinado:" +num2);
+		break;
+	}
 }
-var contador = 0;
-while (contador<10)
-{
-	var randomico = numeroAlAzarEntreLimites(parseInt(limiteInferior),parseInt(limiteSuperior));
-	document.write(randomico +" ");
-	contador++;
-}
+ alert("el nuermo de intentos es:"+contador);
