@@ -1,7 +1,7 @@
-var verbo = prompt ("ingrese un verbo");
-var adjetivo = prompt("ingrese un adjetivo");
-var sustantivo = prompt("ingrese un sustantivo");
-document.write	("<h1>te cuento un cuento:</h1><br>");
-document.write ("<p>El"+ sustantivo +" " + abjetivo +" "+ verbo +" locamente</p>");
-document.write ("<p>El"+ verbo +" " + sustantivo +" "+ adjetivo +" locamente</p>");
-document.write ("<p>El locamente el " + abjetivo +" "+ verbo +" </p>");
+var verbo = prompt ("Estimado usuario, ingrese un verbo: ");
+var sustantivo = prompt ("Ahora ingrese un sustantivo: ");
+var adjetivo = prompt ("Por último, ingrese un adjetivo: ");
+document.write("<h1>Cuenta cuentos</h1><br>");
+document.write("<p>El "+sustantivo+" "+adjetivo+" "+verbo+" locamente,</p>");
+document.write("<p>porque cuando "+verbo+" el "+sustantivo+" siempre es "+adjetivo+",</p>");
+document.write("<p>por eso el "+sustantivo+" siente que es muy "+adjetivo+" y es así que cada día "+verbo+" que "+verbo+".</p>");
