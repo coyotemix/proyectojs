@@ -1,15 +1,13 @@
-console.log("Inicio de programa");
-var preguntas *3;
-var preguntasFaltantes *"Quedan" +""preguntas+"preguntas";
-alert ("este es el juego del cuenta cuentos. sigue las instrucciones.");
-var sustantivo= prompt("ingrese un sustantivo." +preguntasFaltantes);
-preguntas=preguntas-1;
-preguntasFaltantes="quedan"+ preguntas+"preguntas";
-var adjetivo = prompt("estima usuario;ingrese un adjetivo."+preguntasFaltantes);
+console.log("Inicio programa");
+var numeroUsuario = prompt("Ingrese un numero del 1 al 5: ");
+var numeroAdivinar = 3;
+if (numeroUsuario ===numeroAdivinar)
+{
+	alert("Adivinastes. good Job.!!!");
+}
+else 
+{
+	alert("No adivinastes, vuelva intentar =(");
+}
 
-document.write("<h1>cuanta cuaentos</h1>");
-document.write("<p>"+suatantivo+" "+adjetivo+" "+verbo+"locamente</p>");
-document.write(<p>por cuando "+verbo+" el "+sustantivo+" siempre es "+adjetivo+",</p>);
-document.write("<p> por eso el "+suatantivo+" siene que es muy "+adjetivo+" y es asi que cada dia "+verbo+".</P>);
-console.log("Fin de programa");
-
+console.log("programa completo");
